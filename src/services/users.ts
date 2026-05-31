@@ -9,5 +9,14 @@ export const USERS_SERVICE = {
     } catch (error) {
       console.error(error);
     }
+  },
+  getById: async (id: string) => {
+    try {
+      const response = await fetch(`${API_URL}/users/${id}`);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
   }
 }

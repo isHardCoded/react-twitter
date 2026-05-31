@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')!).render(
     <Routes>
       <Route element={<Layout />}>
         <Route path={ROUTES.HOME} element={<HomePage />} />
-        <Route path={ROUTES.PROFILE} element={<ProfilePage />} />
+        <Route path={`${ROUTES.PROFILE}/:userId`} element={<ProfilePage />} />
       </Route>
     </Routes>
   </Router>

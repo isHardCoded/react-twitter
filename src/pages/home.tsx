@@ -41,7 +41,7 @@ export default function HomePage() {
 
         return <li>
         <div className="flex gap-3 py-3 px-4 border-b border-[#6E767D]">
-          <Link className="shrink-0" to={ROUTES.PROFILE}>
+          <Link className="shrink-0" to={`${ROUTES.PROFILE}/${post.userId}`}>
             <img src={user.avatarUrl} className="size-[48px] rounded-full object-cover" alt="" />
           </Link>
           <div>
