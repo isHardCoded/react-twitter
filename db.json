@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "createdAt": "2026-01-15T10:20:00Z",
+      "firstName": "John",
+      "lastName": "Doe",
+      "avatarUrl": "https://i.pravatar.cc/150?img=1",
+      "username": "johndoe",
+      "birthDate": "1995-06-12"
+    },
+    {
+      "id": "2",
+      "createdAt": "2026-01-16T11:30:00Z",
+      "firstName": "Emma",
+      "lastName": "Smith",
+      "avatarUrl": "https://i.pravatar.cc/150?img=2",
+      "username": "emmasmith",
+      "birthDate": "1998-09-25"
+    },
+    {
+      "id": "3",
+      "createdAt": "2026-01-17T09:15:00Z",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "avatarUrl": "https://i.pravatar.cc/150?img=3",
+      "username": "mjohnson",
+      "birthDate": "1992-03-08"
+    },
+    {
+      "id": "4",
+      "createdAt": "2026-01-18T14:45:00Z",
+      "firstName": "Sophia",
+      "lastName": "Williams",
+      "avatarUrl": "https://i.pravatar.cc/150?img=4",
+      "username": "sophiaw",
+      "birthDate": "1999-11-17"
+    },
+    {
+      "id": "5",
+      "createdAt": "2026-01-19T08:50:00Z",
+      "firstName": "Daniel",
+      "lastName": "Brown",
+      "avatarUrl": "https://i.pravatar.cc/150?img=5",
+      "username": "danbrown",
+      "birthDate": "1994-01-30"
+    },
+    {
+      "id": "6",
+      "createdAt": "2026-01-20T16:10:00Z",
+      "firstName": "Olivia",
+      "lastName": "Davis",
+      "avatarUrl": "https://i.pravatar.cc/150?img=6",
+      "username": "oliviad",
+      "birthDate": "2000-07-14"
+    },
+    {
+      "id": "7",
+      "createdAt": "2026-01-21T13:25:00Z",
+      "firstName": "James",
+      "lastName": "Miller",
+      "avatarUrl": "https://i.pravatar.cc/150?img=7",
+      "username": "jamesm",
+      "birthDate": "1993-12-05"
+    },
+    {
+      "id": "8",
+      "createdAt": "2026-01-22T10:05:00Z",
+      "firstName": "Ava",
+      "lastName": "Wilson",
+      "avatarUrl": "https://i.pravatar.cc/150?img=8",
+      "username": "avawilson",
+      "birthDate": "1997-04-22"
+    },
+    {
+      "id": "9",
+      "createdAt": "2026-01-23T15:40:00Z",
+      "firstName": "Benjamin",
+      "lastName": "Moore",
+      "avatarUrl": "https://i.pravatar.cc/150?img=9",
+      "username": "benmoore",
+      "birthDate": "1991-08-11"
+    },
+    {
+      "id": "10",
+      "createdAt": "2026-01-24T12:55:00Z",
+      "firstName": "Mia",
+      "lastName": "Taylor",
+      "avatarUrl": "https://i.pravatar.cc/150?img=10",
+      "username": "miataylor",
+      "birthDate": "2001-02-28"
+    }
+  ],
+  "tweets": [
+    {
+      "id": "1",
+      "createdAt": "2025-06-10T14:30:00Z",
+      "content": "Привет, мир! Это моя первая публикация в блоге.",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "createdAt": "2025-06-15T09:45:00Z",
+      "content": "Сегодня я изучил новый фреймворк для создания веб-приложений.",
+      "userId": 2
+    },
+    {
+      "id": "3",
+      "createdAt": "2025-06-20T18:20:00Z",
+      "content": "Отличный день для прогулки по Франкфурту. Много интересных мест.",
+      "userId": 3
+    },
+    {
+      "id": "4",
+      "createdAt": "2025-06-25T11:10:00Z",
+      "content": "Изучение TypeScript значительно упрощает разработку больших проектов.",
+      "userId": 4
+    },
+    {
+      "id": "5",
+      "createdAt": "2025-07-01T16:55:00Z",
+      "content": "Вчера был чемпионат мира.",
+      "userId": 5
+    },
+    {
+      "content": "asdasdsaasd",
+      "userId": 1,
+      "id": "jRC36G8mmD8"
+    },
+    {
+      "content": "ПРИВЕТ!",
+      "userId": 1,
+      "id": "pRgzEbyC4nY"
+    },
+    {
+      "content": "ывапывапваып",
+      "userId": 1,
+      "id": "jTp4vERx-QM"
+    },
+    {
+      "content": "dsadsadsadsa",
+      "createdAt": "2026-06-14T11:11:50.814Z",
+      "userId": 1,
+      "id": "nSzkfLwTdIM"
+    },
+    {
+      "content": "NEW POST",
+      "createdAt": "2026-06-14T11:13:51.993Z",
+      "userId": 1,
+      "id": "lV38G3_W8pk"
+    },
+    {
+      "content": "AASDASD",
+      "createdAt": "2026-06-14T11:14:26.380Z",
+      "userId": 1,
+      "id": "sSSSqitm7i0"
+    },
+    {
+      "content": "CXZCZXCZXC",
+      "createdAt": "2026-06-14T11:14:29.446Z",
+      "userId": 1,
+      "id": "9oCwpi904Oc"
+    },
+    {
+      "content": "чсчясячсячс",
+      "createdAt": "2026-06-14T11:15:34.406Z",
+      "userId": 1,
+      "id": "GPEBuXolHsI"
+    }
+  ],
+  "comments": [],
+  "likes": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

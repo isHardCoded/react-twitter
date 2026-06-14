@@ -1,4 +1,4 @@
-export type Post = {
+export type Tweet = {
   id: number
   createdAt: string
   content: string
